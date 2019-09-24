@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {View, Text, Image, TouchableOpacity, StyleSheet} from "react-native";
 import {Container, Header, Left, Right, Button, Icon , Content , Form, Item, Input, Label} from 'native-base';
 
-class Register extends Component {
+class Login extends Component {
 
 
     render() {
@@ -77,4 +77,4 @@ const styles = StyleSheet.create({
         fontFamily:"RegularFont"
     }
 });
-export default Register;
+export default Login;

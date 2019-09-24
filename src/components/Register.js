@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {View, Text, Image, TouchableOpacity, StyleSheet , ImageBackground} from "react-native";
 import {Container, Header, Left, Right, Button, Icon , Content , Form, Item, Input, Label} from 'native-base';
 
-class Login extends Component {
+class Register extends Component {
 
 
     render() {
@@ -42,7 +42,7 @@ class Login extends Component {
                             marginTop: 20,marginBottom: 10, width: '100%', borderRadius: 2, justifyContent: 'center', height: 43 , paddingBottom:10 }}>
                             <Text style={{ color: '#fff', textAlign: 'center', fontFamily:"RegularFont" , fontSize:15  }}>تسجيل</Text>
                         </Button>
-                        <TouchableOpacity onPress={()=> this.props.navigation.navigate("register")}  style={{  alignSelf: 'center', width: '100%', justifyContent: 'center' }}>
+                        <TouchableOpacity onPress={()=> this.props.navigation.navigate("login")}  style={{  alignSelf: 'center', width: '100%', justifyContent: 'center' }}>
                             <Text style={{ color: '#b7b7b7', textAlign: 'center' , fontFamily:"RegularFont" , fontSize:15 }}>تسجيل دخول؟</Text>
                         </TouchableOpacity>
                     </Form>
@@ -68,4 +68,4 @@ const styles = StyleSheet.create({
         fontFamily:"RegularFont"
     }
 });
-export default Login;
+export default Register;
